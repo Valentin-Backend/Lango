@@ -10,7 +10,7 @@
 [![Firebase](https://img.shields.io/badge/Firebase-Auth_%26_Firestore-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Лицензия: MIT](https://img.shields.io/badge/Лицензия-MIT-blue.svg)](LICENSE)
 
-[📖 Установка и запуск](docs/SETUP.md) · [🏗️ Архитектура](#архитектура) · [✨ Возможности](#возможности) · [📱 Экраны](#экраны)
+
 
 </div>
 
@@ -152,11 +152,26 @@ docs/
 ├── lango_architecture.svg         # Диаграмма архитектуры
 ├── lango_architecture.png         # Диаграмма архитектуры (растр)
 ├── LANGO-Presentation.pptx        # Презентация проекта
+├── Итоговый_контроль.docx         # Отчёт по итоговому контролю
 └── SETUP.md                       # Инструкция по запуску
 
 media/
-└── demo.mp4                       # Видеодемонстрация приложения
+└── README.md                      # Ссылка на видеодемонстрацию
 ```
+
+---
+
+## Документация
+
+Вся документация находится в папке [`docs/`](docs/):
+
+| Файл | Описание |
+|------|---------|
+| 📊 `docs/LANGO-Presentation.pptx` | Презентация проекта |
+| 📄 `docs/Итоговый_контроль.docx` | Отчёт по итоговому контролю — подробное техническое описание архитектуры, экранов, базы данных и интеграций с API |
+| 🏗️ `docs/lango_architecture.svg` | Диаграмма архитектуры приложения (4 слоя: UI, ViewModel, Repository, Data) |
+| 🎬 `media/` | Видеодемонстрация работы приложения |
+| 📖 `docs/SETUP.md` | Инструкция по установке и запуску |
 
 ---
 
