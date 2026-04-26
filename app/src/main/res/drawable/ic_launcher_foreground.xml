@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Open book icon, similar to MenuBook on auth screen -->
+
+    <!-- Left page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,32
+                          L52,28
+                          Q56,27 60,28
+                          L78,32
+                          L78,78
+                          L56,74
+                          Q52,73 48,74
+                          L30,78 Z" />
+
+    <!-- Center spine shadow -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M53,30 L57,29 L57,75 L53,76 Z" />
+
+    <!-- Accent bookmark -->
+    <path
+        android:fillColor="#4ECDC4"
+        android:pathData="M64,30 L70,30 L70,54 L67,51 L64,54 Z" />
+
+    <!-- Text lines on left page -->
+    <path
+        android:strokeColor="#7C6AF7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M34,40 L48,38
+                          M34,46 L48,44
+                          M34,52 L46,50" />
+
+    <!-- Text lines on right page -->
+    <path
+        android:strokeColor="#7C6AF7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M60,40 L74,42
+                          M60,46 L74,48
+                          M60,52 L72,54" />
+</vector>
